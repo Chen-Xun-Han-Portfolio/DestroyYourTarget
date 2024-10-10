@@ -1,0 +1,78 @@
+Begin Object Class=/Script/Engine.SoundCue Name="Cue_Rifle_Fire" ExportPath=/Script/Engine.SoundCue'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire"'
+   Begin Object Class=/Script/AudioEditor.SoundCueGraph Name="SoundCueGraph_0" ExportPath=/Script/AudioEditor.SoundCueGraph'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundCueGraph_0"'
+      Begin Object Class=/Script/AudioEditor.SoundCueGraphNode Name="SoundCueGraphNode_0" ExportPath=/Script/AudioEditor.SoundCueGraphNode'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundCueGraph_0.SoundCueGraphNode_0"'
+      End Object
+      Begin Object Class=/Script/AudioEditor.SoundCueGraphNode Name="SoundCueGraphNode_1" ExportPath=/Script/AudioEditor.SoundCueGraphNode'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundCueGraph_0.SoundCueGraphNode_1"'
+      End Object
+      Begin Object Class=/Script/AudioEditor.SoundCueGraphNode Name="SoundCueGraphNode_2" ExportPath=/Script/AudioEditor.SoundCueGraphNode'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundCueGraph_0.SoundCueGraphNode_2"'
+      End Object
+      Begin Object Class=/Script/AudioEditor.SoundCueGraphNode_Root Name="SoundCueGraphNode_Root_0" ExportPath=/Script/AudioEditor.SoundCueGraphNode_Root'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundCueGraph_0.SoundCueGraphNode_Root_0"'
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.SoundNodeMixer Name="SoundNodeMixer_0" ExportPath=/Script/Engine.SoundNodeMixer'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundNodeMixer_0"'
+   End Object
+   Begin Object Class=/Script/Engine.SoundNodeWavePlayer Name="SoundNodeWavePlayer_0" ExportPath=/Script/Engine.SoundNodeWavePlayer'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundNodeWavePlayer_0"'
+   End Object
+   Begin Object Class=/Script/Engine.SoundNodeWavePlayer Name="SoundNodeWavePlayer_1" ExportPath=/Script/Engine.SoundNodeWavePlayer'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundNodeWavePlayer_1"'
+   End Object
+   Begin Object Name="SoundCueGraph_0" ExportPath=/Script/AudioEditor.SoundCueGraph'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundCueGraph_0"'
+      Begin Object Name="SoundCueGraphNode_0" ExportPath=/Script/AudioEditor.SoundCueGraphNode'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundCueGraph_0.SoundCueGraphNode_0"'
+         SoundNode=/Script/Engine.SoundNodeWavePlayer'"Cue_Rifle_Fire:SoundNodeWavePlayer_0"'
+         NodePosX=-501
+         NodePosY=-185
+         NodeGuid=5B4A80D043814FCFFDF62782C537E051
+         CustomProperties Pin (PinId=7154E4294C38E767D34BE8AE40A8937D,PinName="Output",Direction="EGPD_Output",PinType.PinCategory="SoundNode",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(SoundCueGraphNode_2 001BAF71407787E283F4D39838D3BCDC,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="SoundCueGraphNode_1" ExportPath=/Script/AudioEditor.SoundCueGraphNode'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundCueGraph_0.SoundCueGraphNode_1"'
+         SoundNode=/Script/Engine.SoundNodeWavePlayer'"Cue_Rifle_Fire:SoundNodeWavePlayer_1"'
+         NodePosX=-480
+         NodePosY=32
+         NodeGuid=79E35A724D31CABAB5EFCF9CF651D2FC
+         CustomProperties Pin (PinId=CA3F852D420E59C2F96EA98BE4B4A4BF,PinName="Output",Direction="EGPD_Output",PinType.PinCategory="SoundNode",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(SoundCueGraphNode_2 18D525C541F3E6048AF4F5B7057EF8FB,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="SoundCueGraphNode_2" ExportPath=/Script/AudioEditor.SoundCueGraphNode'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundCueGraph_0.SoundCueGraphNode_2"'
+         SoundNode=/Script/Engine.SoundNodeMixer'"Cue_Rifle_Fire:SoundNodeMixer_0"'
+         NodePosX=-80
+         NodePosY=-96
+         NodeGuid=414063084E9A979C994F0BAB20F3C0BD
+         CustomProperties Pin (PinId=494C195540C10550040D1DA315167C0F,PinName="Output",Direction="EGPD_Output",PinType.PinCategory="SoundNode",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(SoundCueGraphNode_Root_0 A2D17C5D4B0CB9CC79AF7BA190DFE490,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=001BAF71407787E283F4D39838D3BCDC,PinName="Input",PinFriendlyName=NSLOCTEXT("", "47D80B42420A3470351E1699B046E9CF", " "),PinType.PinCategory="SoundNode",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(SoundCueGraphNode_0 7154E4294C38E767D34BE8AE40A8937D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=18D525C541F3E6048AF4F5B7057EF8FB,PinName="Input2",PinFriendlyName=NSLOCTEXT("", "6371A51E4305663B4994F7A7AC84F523", " "),PinType.PinCategory="SoundNode",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(SoundCueGraphNode_1 CA3F852D420E59C2F96EA98BE4B4A4BF,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="SoundCueGraphNode_Root_0" ExportPath=/Script/AudioEditor.SoundCueGraphNode_Root'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundCueGraph_0.SoundCueGraphNode_Root_0"'
+         NodePosX=144
+         NodePosY=-128
+         NodeGuid=3F0F93384F5EEAF030F6F48693AAD070
+         CustomProperties Pin (PinId=A2D17C5D4B0CB9CC79AF7BA190DFE490,PinType.PinCategory="SoundNode",PinType.PinSubCategory="Root",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(SoundCueGraphNode_2 494C195540C10550040D1DA315167C0F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=/Script/CoreUObject.Class'"/Script/AudioEditor.SoundCueGraphSchema"'
+      Nodes(0)=/Script/AudioEditor.SoundCueGraphNode_Root'"SoundCueGraphNode_Root_0"'
+      Nodes(1)=/Script/AudioEditor.SoundCueGraphNode'"SoundCueGraphNode_0"'
+      Nodes(2)=/Script/AudioEditor.SoundCueGraphNode'"SoundCueGraphNode_1"'
+      Nodes(3)=/Script/AudioEditor.SoundCueGraphNode'"SoundCueGraphNode_2"'
+      bAllowDeletion=False
+      GraphGuid=C67CBF6F421DC1AF161D16A5FD9749AD
+   End Object
+   Begin Object Name="SoundNodeMixer_0" ExportPath=/Script/Engine.SoundNodeMixer'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundNodeMixer_0"'
+      InputVolume(0)=1.000000
+      InputVolume(1)=1.000000
+      ChildNodes(0)=/Script/Engine.SoundNodeWavePlayer'"Cue_Rifle_Fire:SoundNodeWavePlayer_0"'
+      ChildNodes(1)=/Script/Engine.SoundNodeWavePlayer'"Cue_Rifle_Fire:SoundNodeWavePlayer_1"'
+      GraphNode=/Script/AudioEditor.SoundCueGraphNode'"Cue_Rifle_Fire:SoundCueGraph_0.SoundCueGraphNode_2"'
+   End Object
+   Begin Object Name="SoundNodeWavePlayer_0" ExportPath=/Script/Engine.SoundNodeWavePlayer'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundNodeWavePlayer_0"'
+      SoundWaveAssetPtr="/Game/Audio/Rifle/Weapons_Rifle2_Sweetener_01.Weapons_Rifle2_Sweetener_01"
+      GraphNode=/Script/AudioEditor.SoundCueGraphNode'"Cue_Rifle_Fire:SoundCueGraph_0.SoundCueGraphNode_0"'
+   End Object
+   Begin Object Name="SoundNodeWavePlayer_1" ExportPath=/Script/Engine.SoundNodeWavePlayer'"/Game/Audio/Rifle/Cue_Rifle_Fire.Cue_Rifle_Fire:SoundNodeWavePlayer_1"'
+      SoundWaveAssetPtr="/Game/Audio/Rifle/Weapons_Rifle2_Punch_01.Weapons_Rifle2_Punch_01"
+      GraphNode=/Script/AudioEditor.SoundCueGraphNode'"Cue_Rifle_Fire:SoundCueGraph_0.SoundCueGraphNode_1"'
+   End Object
+   FirstNode=/Script/Engine.SoundNodeMixer'"SoundNodeMixer_0"'
+   AllNodes(0)=/Script/Engine.SoundNodeWavePlayer'"SoundNodeWavePlayer_0"'
+   AllNodes(1)=/Script/Engine.SoundNodeWavePlayer'"SoundNodeWavePlayer_1"'
+   AllNodes(2)=/Script/Engine.SoundNodeMixer'"SoundNodeMixer_0"'
+   SoundCueGraph=/Script/AudioEditor.SoundCueGraph'"SoundCueGraph_0"'
+   Duration=2.751646
+   MaxDistance=2097152.000000
+End Object

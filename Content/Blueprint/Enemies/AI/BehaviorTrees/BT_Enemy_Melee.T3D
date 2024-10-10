@@ -1,0 +1,934 @@
+Begin Object Class=/Script/AIModule.BehaviorTree Name="BT_Enemy_Melee" ExportPath=/Script/AIModule.BehaviorTree'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee"'
+   Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraph Name="Behavior Tree" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraph'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree"'
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_0" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_0"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_1" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_1"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_10" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_10"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_11" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_11"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_12" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_12"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_13" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_13"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_3" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_3"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_4" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_4"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_5" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_5"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite Name="BehaviorTreeGraphNode_Composite_8" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_8"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_0" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_0"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_1" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_1"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_3" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_3"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_4" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_4"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_5" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_5"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_6" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_6"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_7" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_7"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator Name="BehaviorTreeGraphNode_Decorator_8" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_8"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Root Name="BehaviorTreeGraphNode_Root_0" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Root'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Root_0"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service Name="BehaviorTreeGraphNode_Service_0" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Service_0"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_SubtreeTask Name="BehaviorTreeGraphNode_SubtreeTask_0" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_SubtreeTask'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_SubtreeTask_0"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_SubtreeTask Name="BehaviorTreeGraphNode_SubtreeTask_1" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_SubtreeTask'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_SubtreeTask_1"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_SubtreeTask Name="BehaviorTreeGraphNode_SubtreeTask_2" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_SubtreeTask'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_SubtreeTask_2"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_0" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_0"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_1" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_1"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_13" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_13"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_17" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_17"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_19" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_19"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_2" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_2"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_20" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_20"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_21" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_21"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_22" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_22"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_23" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_23"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_24" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_24"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_25" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_25"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_26" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_26"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_27" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_27"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_28" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_28"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_29" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_29"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_3" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_3"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_30" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_30"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_31" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_31"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_32" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_32"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_33" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_33"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_7" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_7"'
+      End Object
+      Begin Object Class=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task Name="BehaviorTreeGraphNode_Task_9" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_9"'
+      End Object
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_0" ExportPath=/Script/AIModule.BTComposite_Selector'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Selector_0"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_1" ExportPath=/Script/AIModule.BTComposite_Selector'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Selector_1"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_2" ExportPath=/Script/AIModule.BTComposite_Selector'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Selector_2"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_3" ExportPath=/Script/AIModule.BTComposite_Selector'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Selector_3"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Selector Name="BTComposite_Selector_5" ExportPath=/Script/AIModule.BTComposite_Selector'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Selector_5"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_0" ExportPath=/Script/AIModule.BTComposite_Sequence'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Sequence_0"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_3" ExportPath=/Script/AIModule.BTComposite_Sequence'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Sequence_3"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_5" ExportPath=/Script/AIModule.BTComposite_Sequence'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Sequence_5"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_6" ExportPath=/Script/AIModule.BTComposite_Sequence'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Sequence_6"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTComposite_Sequence Name="BTComposite_Sequence_7" ExportPath=/Script/AIModule.BTComposite_Sequence'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Sequence_7"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWieldingSword.BTD_IsWieldingSword_C Name="BTD_IsWieldingSword_C_7" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWieldingSword.BTD_IsWieldingSword_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTD_IsWieldingSword_C_7"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWieldingSword.BTD_IsWieldingSword_C Name="BTD_IsWieldingSword_C_8" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWieldingSword.BTD_IsWieldingSword_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTD_IsWieldingSword_C_8"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWithinIdealRange.BTD_IsWithinIdealRange_C Name="BTD_IsWithinIdealRange_C_4" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWithinIdealRange.BTD_IsWithinIdealRange_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTD_IsWithinIdealRange_C_4"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTDecorator_Blackboard Name="BTDecorator_Blackboard_0" ExportPath=/Script/AIModule.BTDecorator_Blackboard'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTDecorator_Blackboard_0"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTDecorator_Blackboard Name="BTDecorator_Blackboard_1" ExportPath=/Script/AIModule.BTDecorator_Blackboard'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTDecorator_Blackboard_1"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTDecorator_Blackboard Name="BTDecorator_Blackboard_12" ExportPath=/Script/AIModule.BTDecorator_Blackboard'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTDecorator_Blackboard_12"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTDecorator_Blackboard Name="BTDecorator_Blackboard_13" ExportPath=/Script/AIModule.BTDecorator_Blackboard'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTDecorator_Blackboard_13"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTDecorator_Cooldown Name="BTDecorator_Cooldown_0" ExportPath=/Script/AIModule.BTDecorator_Cooldown'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTDecorator_Cooldown_0"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Services/BTS_StopAttackingIfTargetIsDead.BTS_StopAttackingIfTargetIsDead_C Name="BTS_StopAttackingIfTargetIsDead_C_0" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Services/BTS_StopAttackingIfTargetIsDead.BTS_StopAttackingIfTargetIsDead_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTS_StopAttackingIfTargetIsDead_C_0"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_ClearFocus.BTT_ClearFocus_C Name="BTT_ClearFocus_C_0" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_ClearFocus.BTT_ClearFocus_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_ClearFocus_C_0"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_ClearFocus.BTT_ClearFocus_C Name="BTT_ClearFocus_C_3" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_ClearFocus.BTT_ClearFocus_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_ClearFocus_C_3"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_DefaultAttack.BTT_DefaultAttack_C Name="BTT_DefaultAttack_C_0" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_DefaultAttack.BTT_DefaultAttack_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_DefaultAttack_C_0"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_DefaultAttack.BTT_DefaultAttack_C Name="BTT_DefaultAttack_C_1" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_DefaultAttack.BTT_DefaultAttack_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_DefaultAttack_C_1"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_EquipWeapon.BTT_EquipWeapon_C Name="BTT_WieldWeapon_C_0" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_EquipWeapon.BTT_EquipWeapon_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_WieldWeapon_C_0"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C Name="BTT_FocusTarget_C_0" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_FocusTarget_C_0"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C Name="BTT_FocusTarget_C_1" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_FocusTarget_C_1"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C Name="BTT_FocusTarget_C_3" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_FocusTarget_C_3"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange.BTT_MoveToIdealRange_C Name="BTT_MoveToIdealRange_C_0" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange.BTT_MoveToIdealRange_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_MoveToIdealRange_C_0"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange.BTT_MoveToIdealRange_C Name="BTT_MoveToIdealRange_C_1" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange.BTT_MoveToIdealRange_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_MoveToIdealRange_C_1"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange.BTT_MoveToIdealRange_C Name="BTT_MoveToIdealRange_C_2" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange.BTT_MoveToIdealRange_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_MoveToIdealRange_C_2"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C Name="BTT_SetMovementSpeed_C_2" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_SetMovementSpeed_C_2"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C Name="BTT_SetMovementSpeed_C_3" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_SetMovementSpeed_C_3"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C Name="BTT_SetMovementSpeed_C_4" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_SetMovementSpeed_C_4"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C Name="BTT_SetMovementSpeed_C_5" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_SetMovementSpeed_C_5"'
+   End Object
+   Begin Object Class=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_UnequipWeapon.BTT_UnequipWeapon_C Name="BTT_UnequipWeapon_C_0" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_UnequipWeapon.BTT_UnequipWeapon_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_UnequipWeapon_C_0"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_MoveTo Name="BTTask_MoveTo_0" ExportPath=/Script/AIModule.BTTask_MoveTo'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_MoveTo_0"'
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="BlackboardKey_Object_0" Archetype=/Script/AIModule.BlackboardKeyType_Object'/Script/AIModule.Default__BTTask_MoveTo:BlackboardKey_Object_0' ExportPath=/Script/AIModule.BlackboardKeyType_Object'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_MoveTo_0.BlackboardKey_Object_0"'
+      End Object
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKey_Vector" Archetype=/Script/AIModule.BlackboardKeyType_Vector'/Script/AIModule.Default__BTTask_MoveTo:BlackboardKey_Vector' ExportPath=/Script/AIModule.BlackboardKeyType_Vector'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_MoveTo_0.BlackboardKey_Vector"'
+      End Object
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_MoveTo Name="BTTask_MoveTo_3" ExportPath=/Script/AIModule.BTTask_MoveTo'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_MoveTo_3"'
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="BlackboardKey_Object_0" Archetype=/Script/AIModule.BlackboardKeyType_Object'/Script/AIModule.Default__BTTask_MoveTo:BlackboardKey_Object_0' ExportPath=/Script/AIModule.BlackboardKeyType_Object'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_MoveTo_3.BlackboardKey_Object_0"'
+      End Object
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Vector Name="BlackboardKey_Vector" Archetype=/Script/AIModule.BlackboardKeyType_Vector'/Script/AIModule.Default__BTTask_MoveTo:BlackboardKey_Vector' ExportPath=/Script/AIModule.BlackboardKeyType_Vector'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_MoveTo_3.BlackboardKey_Vector"'
+      End Object
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_RunBehavior Name="BTTask_RunBehavior_0" ExportPath=/Script/AIModule.BTTask_RunBehavior'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_RunBehavior_0"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_RunBehavior Name="BTTask_RunBehavior_1" ExportPath=/Script/AIModule.BTTask_RunBehavior'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_RunBehavior_1"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_RunBehavior Name="BTTask_RunBehavior_2" ExportPath=/Script/AIModule.BTTask_RunBehavior'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_RunBehavior_2"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_RunEQSQuery Name="BTTask_RunEQSQuery_0" ExportPath=/Script/AIModule.BTTask_RunEQSQuery'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_RunEQSQuery_0"'
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="EQSQueryBlackboardKey_Object_0" Archetype=/Script/AIModule.BlackboardKeyType_Object'/Script/AIModule.Default__BTTask_RunEQSQuery:EQSQueryBlackboardKey_Object_0' ExportPath=/Script/AIModule.BlackboardKeyType_Object'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_RunEQSQuery_0.EQSQueryBlackboardKey_Object_0"'
+      End Object
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_RunEQSQuery Name="BTTask_RunEQSQuery_1" ExportPath=/Script/AIModule.BTTask_RunEQSQuery'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_RunEQSQuery_1"'
+      Begin Object Class=/Script/AIModule.BlackboardKeyType_Object Name="EQSQueryBlackboardKey_Object_0" Archetype=/Script/AIModule.BlackboardKeyType_Object'/Script/AIModule.Default__BTTask_RunEQSQuery:EQSQueryBlackboardKey_Object_0' ExportPath=/Script/AIModule.BlackboardKeyType_Object'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_RunEQSQuery_1.EQSQueryBlackboardKey_Object_0"'
+      End Object
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_Wait Name="BTTask_Wait_0" ExportPath=/Script/AIModule.BTTask_Wait'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_Wait_0"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_Wait Name="BTTask_Wait_3" ExportPath=/Script/AIModule.BTTask_Wait'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_Wait_3"'
+   End Object
+   Begin Object Class=/Script/AIModule.BTTask_Wait Name="BTTask_Wait_4" ExportPath=/Script/AIModule.BTTask_Wait'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_Wait_4"'
+   End Object
+   Begin Object Name="Behavior Tree" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraph'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree"'
+      Begin Object Name="BehaviorTreeGraphNode_Composite_0" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_0"'
+         Decorators(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_3"'
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_0"'
+         SubNodes(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_3"'
+         NodePosX=-944
+         NodePosY=480
+         NodeGuid=A81BD320498C9A2CB2102695F7D95481
+         CustomProperties Pin (PinId=776996F74456566EC952AB92A398B678,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_1 FFB4FF604D3A77A8E2038BBC5692366B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=8CC6EDE445B53829830CC0A40655418F,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_7 08AC6BC2459174CDA8393A8462A30B7A,BehaviorTreeGraphNode_Task_0 B62935734671F09CAEAFAA90D5984889,BehaviorTreeGraphNode_Task_27 6F961A044DAE30B6C1542FB5C11C1CB2,BehaviorTreeGraphNode_Task_2 971765F047E2D356262A9C8E1BA7F0B8,BehaviorTreeGraphNode_Task_9 802B19D74438B32B9D12579DEA4698F7,BehaviorTreeGraphNode_Task_1 D226BE8F444999D35ED2C39AC14466D3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_1" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_1"'
+         Decorators(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_4"'
+         Services(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Service_0"'
+         ClassData=(ClassName="BTComposite_Selector")
+         NodeInstance=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_0"'
+         SubNodes(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_4"'
+         SubNodes(1)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Service_0"'
+         CopySubNodeIndex=6
+         NodePosX=-720
+         NodePosY=-224
+         NodeGuid=210F435547F31E808BBB91B1673AA0CF
+         CustomProperties Pin (PinId=21F2175F43E8E1F777DFA49863FBEC6D,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_4 37AA4384498F4900BBFB72822C1152DE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=FFB4FF604D3A77A8E2038BBC5692366B,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_8 B4ED47A442783619C30C59B3DDE3C242,BehaviorTreeGraphNode_Composite_0 776996F74456566EC952AB92A398B678,BehaviorTreeGraphNode_Composite_11 B02C1D91441C3DCF7DC22CA3487E7BB9,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_10" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_10"'
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_7"'
+         CopySubNodeIndex=25
+         NodePosX=-816
+         NodePosY=1728
+         NodeGuid=CF39B9C44349DF6419992A825925CCC8
+         CustomProperties Pin (PinId=196FD78E4359639528A1E98BBBBDB81C,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2D0FEAA84023D79CC48442AECC35722C,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_23 9A36B3C8410F99864F4D709BAE39CEE9,BehaviorTreeGraphNode_Task_28 D439648C414E007115E481BF4CECDE7C,BehaviorTreeGraphNode_Task_29 D86C20204BD2E7FDD72DE69EC8BBF8BD,BehaviorTreeGraphNode_Task_30 09081CD4405CC63EA914EDB4152BAFC2,BehaviorTreeGraphNode_Task_31 43F78E014F093A687FAA17915E1ABB14,BehaviorTreeGraphNode_Task_32 EF49A38143D64EA7EB74128F3DE6E312,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_11" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_11"'
+         ClassData=(ClassName="BTComposite_Selector")
+         NodeInstance=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_1"'
+         CopySubNodeIndex=18
+         NodePosX=208
+         NodePosY=656
+         NodeGuid=478433B94EEA9994313C13B5E29B0484
+         CustomProperties Pin (PinId=B02C1D91441C3DCF7DC22CA3487E7BB9,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_1 FFB4FF604D3A77A8E2038BBC5692366B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A967FC6B45F3D834C5582D8D3310365E,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_12 DA5719044DD7A04939E00491B9E09B96,BehaviorTreeGraphNode_Composite_13 DA5719044DD7A04939E00491B9E09B96,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_12" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_12"'
+         Decorators(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_7"'
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_6"'
+         SubNodes(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_7"'
+         CopySubNodeIndex=20
+         NodePosX=-176
+         NodePosY=960
+         NodeGuid=A3B5126B4E1726744BF0B490EFE8D39B
+         CustomProperties Pin (PinId=DA5719044DD7A04939E00491B9E09B96,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_11 A967FC6B45F3D834C5582D8D3310365E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=6F2C68974DD128FAD15E77B291C3835B,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_26 F82917054D1C2664652C6EBD76314826,BehaviorTreeGraphNode_Task_25 974710914AAADAD2A984BAB85C19AA9E,BehaviorTreeGraphNode_Task_24 230EBF6E4585ABD0FD612F8A16589E10,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_13" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_13"'
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_5"'
+         CopySubNodeIndex=19
+         NodePosX=480
+         NodePosY=944
+         NodeGuid=C42BF3C1493A6E694522C3877D9D4843
+         CustomProperties Pin (PinId=DA5719044DD7A04939E00491B9E09B96,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_11 A967FC6B45F3D834C5582D8D3310365E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=6F2C68974DD128FAD15E77B291C3835B,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_21 A10F94874D30549D740349B51F6DCEEA,BehaviorTreeGraphNode_Task_20 4F5672BE40E04BC72BF82BB329FE733F,BehaviorTreeGraphNode_Task_17 1C8CDCDF43DAFE70D34351B151B1CBC9,BehaviorTreeGraphNode_Task_19 6F191920415776C48B8146AD82E05585,BehaviorTreeGraphNode_Task_22 CF79218E44DFEF680D469D89E08992F7,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_3" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_3"'
+         Decorators(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_5"'
+         ClassData=(ClassName="BTComposite_Selector")
+         NodeInstance=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_3"'
+         SubNodes(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_5"'
+         CopySubNodeIndex=8
+         NodePosX=832
+         NodePosY=-704
+         NodeGuid=88A357774C6B94845888E9A7E96C6CE5
+         CustomProperties Pin (PinId=37F1921B4EE4ACF33407538B5DF1CBD1,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_4 37AA4384498F4900BBFB72822C1152DE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=401ECDE24FA5DE79AAE100A74B19E780,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_5 287A78DF460817FD8DAF5FA07D5A2486,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_4" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_4"'
+         ClassData=(ClassName="BTComposite_Selector")
+         NodeInstance=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_2"'
+         CopySubNodeIndex=9
+         NodePosX=-592
+         NodePosY=-1040
+         NodeGuid=FE1985E74708BC8E3683D7B91B24DC07
+         CustomProperties Pin (PinId=4261A8CB4DC3B55D6F42FAAD57FA85BA,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Root_0 3CC228454B80B8E555F8478891C22F1A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=37AA4384498F4900BBFB72822C1152DE,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_SubtreeTask_0 64CD071C4052BC483E3866BF5294DF26,BehaviorTreeGraphNode_Composite_1 21F2175F43E8E1F777DFA49863FBEC6D,BehaviorTreeGraphNode_SubtreeTask_2 64CD071C4052BC483E3866BF5294DF26,BehaviorTreeGraphNode_Composite_3 37F1921B4EE4ACF33407538B5DF1CBD1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_5" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_5"'
+         ClassData=(ClassName="BTComposite_Selector")
+         NodeInstance=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_5"'
+         CopySubNodeIndex=10
+         NodePosX=896
+         NodePosY=-464
+         NodeGuid=5D8DDBE24D969E06224A54983D25EC29
+         CustomProperties Pin (PinId=287A78DF460817FD8DAF5FA07D5A2486,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_3 401ECDE24FA5DE79AAE100A74B19E780,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2BECA9734CCF0A9D6C58798BDB02387F,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_33 1DD71E344BD6CD478FF40283A1615D26,BehaviorTreeGraphNode_SubtreeTask_1 9597936D472AE33B1C126B9CF92D5187,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Composite_8" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Composite_8"'
+         Decorators(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_6"'
+         ClassData=(ClassName="BTComposite_Sequence")
+         NodeInstance=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_3"'
+         SubNodes(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_6"'
+         CopySubNodeIndex=11
+         NodePosX=-1184
+         NodePosY=-16
+         NodeGuid=39E443244D7CF63BA3A1FCAB20400FFB
+         CustomProperties Pin (PinId=B4ED47A442783619C30C59B3DDE3C242,PinName="In",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_1 FFB4FF604D3A77A8E2038BBC5692366B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=8CE74B19455AE3186A970D8F850EEF04,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="MultipleNodes",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Task_13 5706AF10408C15E6C21A91B0CB0FF53A,BehaviorTreeGraphNode_Task_3 279635164F54E356A74E9C8337EC67D7,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_0" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_0"'
+         ClassData=(ClassName="BTDecorator_Blackboard")
+         NodeInstance=/Script/AIModule.BTDecorator_Blackboard'"BT_Enemy_Melee:BTDecorator_Blackboard_1"'
+         NodeGuid=031E861D455560EB00BD9B91AD050A25
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_1" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_1"'
+         ClassData=(ClassName="BTDecorator_Blackboard")
+         NodeInstance=/Script/AIModule.BTDecorator_Blackboard'"BT_Enemy_Melee:BTDecorator_Blackboard_13"'
+         NodeGuid=BEC9C3E3431EB41E7A48618CD12B8C93
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_3" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_3"'
+         ClassData=(ClassName="BTDecorator_Cooldown")
+         NodeInstance=/Script/AIModule.BTDecorator_Cooldown'"BT_Enemy_Melee:BTDecorator_Cooldown_0"'
+         NodeGuid=B4A029BA472EB589BCC60FA3EA958B7C
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_4" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_4"'
+         ClassData=(ClassName="BTDecorator_Blackboard")
+         NodeInstance=/Script/AIModule.BTDecorator_Blackboard'"BT_Enemy_Melee:BTDecorator_Blackboard_0"'
+         CopySubNodeIndex=6
+         NodeGuid=25AE666A465A34A1E4FF3B8EA8F6B04B
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_5" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_5"'
+         ClassData=(ClassName="BTDecorator_Blackboard")
+         NodeInstance=/Script/AIModule.BTDecorator_Blackboard'"BT_Enemy_Melee:BTDecorator_Blackboard_12"'
+         CopySubNodeIndex=8
+         NodeGuid=9953428242B8AD5201349F8C6ADEC3F4
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_6" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_6"'
+         ClassData=(AssetName="BTD_IsWieldingSword",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWieldingSword",ClassName="BTD_IsWieldingSword_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWieldingSword.BTD_IsWieldingSword_C'"BT_Enemy_Melee:BTD_IsWieldingSword_C_7"'
+         CopySubNodeIndex=11
+         NodeGuid=9ED7120346F5EC38C43FD89B8B709638
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_7" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_7"'
+         ClassData=(AssetName="BTD_IsWithinIdealRange",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWithinIdealRange",ClassName="BTD_IsWithinIdealRange_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWithinIdealRange.BTD_IsWithinIdealRange_C'"BT_Enemy_Melee:BTD_IsWithinIdealRange_C_4"'
+         CopySubNodeIndex=20
+         NodeGuid=759E507D4B2135B94CA9699C73FEF791
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Decorator_8" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_8"'
+         ClassData=(AssetName="BTD_IsWieldingSword",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWieldingSword",ClassName="BTD_IsWieldingSword_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWieldingSword.BTD_IsWieldingSword_C'"BT_Enemy_Melee:BTD_IsWieldingSword_C_8"'
+         CopySubNodeIndex=32
+         NodeGuid=04F624DC43EB25C7064F65AE4F7DEB95
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Root_0" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Root'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Root_0"'
+         BlackboardAsset=/Script/AIModule.BlackboardData'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BB_Enemy_Base.BB_Enemy_Base"'
+         NodePosX=-592
+         NodePosY=-1232
+         NodeGuid=C3C7C2F54E71AB4374964984E0AF0054
+         CustomProperties Pin (PinId=3CC228454B80B8E555F8478891C22F1A,PinName="In",Direction="EGPD_Output",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_4 4261A8CB4DC3B55D6F42FAAD57FA85BA,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Service_0" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Service'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Service_0"'
+         ClassData=(AssetName="BTS_StopAttackingIfTargetIsDead",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Services/BTS_StopAttackingIfTargetIsDead",ClassName="BTS_StopAttackingIfTargetIsDead_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Services/BTS_StopAttackingIfTargetIsDead.BTS_StopAttackingIfTargetIsDead_C'"BT_Enemy_Melee:BTS_StopAttackingIfTargetIsDead_C_0"'
+         NodeGuid=D518949F4951F4A8A382459E02B70E82
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_SubtreeTask_0" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_SubtreeTask'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_SubtreeTask_0"'
+         Decorators(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_1"'
+         ClassData=(ClassName="BTTask_RunBehavior")
+         NodeInstance=/Script/AIModule.BTTask_RunBehavior'"BT_Enemy_Melee:BTTask_RunBehavior_2"'
+         SubNodes(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_1"'
+         NodePosX=-1264
+         NodePosY=-768
+         NodeGuid=B1E829D24578E141DD9BD486DF28890D
+         CustomProperties Pin (PinId=64CD071C4052BC483E3866BF5294DF26,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_4 37AA4384498F4900BBFB72822C1152DE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_SubtreeTask_1" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_SubtreeTask'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_SubtreeTask_1"'
+         ClassData=(ClassName="BTTask_RunBehavior")
+         NodeInstance=/Script/AIModule.BTTask_RunBehavior'"BT_Enemy_Melee:BTTask_RunBehavior_1"'
+         CopySubNodeIndex=34
+         NodePosX=1168
+         NodePosY=-272
+         NodeGuid=EB3EE3B94F74CC8CF9048E8018AD00C5
+         CustomProperties Pin (PinId=9597936D472AE33B1C126B9CF92D5187,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_5 2BECA9734CCF0A9D6C58798BDB02387F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_SubtreeTask_2" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_SubtreeTask'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_SubtreeTask_2"'
+         Decorators(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_0"'
+         ClassData=(ClassName="BTTask_RunBehavior")
+         NodeInstance=/Script/AIModule.BTTask_RunBehavior'"BT_Enemy_Melee:BTTask_RunBehavior_0"'
+         SubNodes(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_0"'
+         NodePosX=-208
+         NodePosY=-704
+         NodeGuid=F4A1A6324E4172EDBF746EB2547B219A
+         CustomProperties Pin (PinId=64CD071C4052BC483E3866BF5294DF26,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_4 37AA4384498F4900BBFB72822C1152DE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_0" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_0"'
+         ClassData=(AssetName="BTT_ClearFocus",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_ClearFocus",ClassName="BTT_ClearFocus_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_ClearFocus.BTT_ClearFocus_C'"BT_Enemy_Melee:BTT_ClearFocus_C_0"'
+         CopySubNodeIndex=4
+         NodePosX=-1360
+         NodePosY=800
+         NodeGuid=E550051F4A7F986C33CAF6A50CE4507E
+         CustomProperties Pin (PinId=B62935734671F09CAEAFAA90D5984889,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 8CC6EDE445B53829830CC0A40655418F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_1" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_1"'
+         ClassData=(ClassName="BTTask_Wait")
+         NodeInstance=/Script/AIModule.BTTask_Wait'"BT_Enemy_Melee:BTTask_Wait_0"'
+         CopySubNodeIndex=2
+         NodePosX=-304
+         NodePosY=816
+         NodeGuid=8168FBF84151AC0466E941848ADF55CC
+         CustomProperties Pin (PinId=D226BE8F444999D35ED2C39AC14466D3,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 8CC6EDE445B53829830CC0A40655418F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_13" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_13"'
+         ClassData=(AssetName="BTT_FocusTarget",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget",ClassName="BTT_FocusTarget_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C'"BT_Enemy_Melee:BTT_FocusTarget_C_1"'
+         CopySubNodeIndex=12
+         NodePosX=-1408
+         NodePosY=176
+         NodeGuid=31780AE040FDF20EDDB7D98793DB0283
+         CustomProperties Pin (PinId=5706AF10408C15E6C21A91B0CB0FF53A,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_8 8CE74B19455AE3186A970D8F850EEF04,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_17" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_17"'
+         ClassData=(ClassName="BTTask_RunEQSQuery")
+         NodeInstance=/Script/AIModule.BTTask_RunEQSQuery'"BT_Enemy_Melee:BTTask_RunEQSQuery_1"'
+         CopySubNodeIndex=13
+         NodePosX=688
+         NodePosY=1232
+         NodeGuid=EC488CF747A5F81DDEEC7FAB442C31CE
+         CustomProperties Pin (PinId=1C8CDCDF43DAFE70D34351B151B1CBC9,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_13 6F2C68974DD128FAD15E77B291C3835B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_19" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_19"'
+         ClassData=(ClassName="BTTask_MoveTo")
+         NodeInstance=/Script/AIModule.BTTask_MoveTo'"BT_Enemy_Melee:BTTask_MoveTo_3"'
+         CopySubNodeIndex=14
+         NodePosX=976
+         NodePosY=1232
+         NodeGuid=A004619E4972B8C9A51D03A0C5A1764D
+         CustomProperties Pin (PinId=6F191920415776C48B8146AD82E05585,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_13 6F2C68974DD128FAD15E77B291C3835B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_2" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_2"'
+         ClassData=(AssetName="BTT_FocusTarget",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget",ClassName="BTT_FocusTarget_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C'"BT_Enemy_Melee:BTT_FocusTarget_C_0"'
+         CopySubNodeIndex=3
+         NodePosX=-816
+         NodePosY=800
+         NodeGuid=EEC319B24D878A29AF3DBE871430B26B
+         CustomProperties Pin (PinId=971765F047E2D356262A9C8E1BA7F0B8,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 8CC6EDE445B53829830CC0A40655418F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_20" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_20"'
+         ClassData=(AssetName="BTT_SetMovementSpeed",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed",ClassName="BTT_SetMovementSpeed_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"BT_Enemy_Melee:BTT_SetMovementSpeed_C_4"'
+         CopySubNodeIndex=15
+         NodePosX=400
+         NodePosY=1216
+         NodeGuid=CA55E3574B39DCBF4FFA24AE31F6A322
+         CustomProperties Pin (PinId=4F5672BE40E04BC72BF82BB329FE733F,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_13 6F2C68974DD128FAD15E77B291C3835B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_21" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_21"'
+         ClassData=(AssetName="BTT_FocusTarget",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget",ClassName="BTT_FocusTarget_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C'"BT_Enemy_Melee:BTT_FocusTarget_C_3"'
+         CopySubNodeIndex=16
+         NodePosX=128
+         NodePosY=1216
+         NodeGuid=C9EC0AC94D10CF793500A890EA87E418
+         CustomProperties Pin (PinId=A10F94874D30549D740349B51F6DCEEA,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_13 6F2C68974DD128FAD15E77B291C3835B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_22" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_22"'
+         ClassData=(ClassName="BTTask_Wait")
+         NodeInstance=/Script/AIModule.BTTask_Wait'"BT_Enemy_Melee:BTTask_Wait_4"'
+         CopySubNodeIndex=17
+         NodePosX=1184
+         NodePosY=1248
+         NodeGuid=5AB1935D4F3B1E08BADA398B4888B114
+         CustomProperties Pin (PinId=CF79218E44DFEF680D469D89E08992F7,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_13 6F2C68974DD128FAD15E77B291C3835B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_23" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_23"'
+         ClassData=(AssetName="BTT_SetMovementSpeed",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed",ClassName="BTT_SetMovementSpeed_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"BT_Enemy_Melee:BTT_SetMovementSpeed_C_3"'
+         CopySubNodeIndex=26
+         NodePosX=-1232
+         NodePosY=2032
+         NodeGuid=B88678C2407A04D2BA10B692ADB14782
+         CustomProperties Pin (PinId=9A36B3C8410F99864F4D709BAE39CEE9,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_10 2D0FEAA84023D79CC48442AECC35722C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_24" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_24"'
+         ClassData=(AssetName="BTT_MoveToIdealRange",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange",ClassName="BTT_MoveToIdealRange_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange.BTT_MoveToIdealRange_C'"BT_Enemy_Melee:BTT_MoveToIdealRange_C_0"'
+         CopySubNodeIndex=21
+         NodePosX=-176
+         NodePosY=1232
+         NodeGuid=0535289248FBEAFD96EBFE90B881BD40
+         CustomProperties Pin (PinId=230EBF6E4585ABD0FD612F8A16589E10,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_12 6F2C68974DD128FAD15E77B291C3835B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_25" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_25"'
+         ClassData=(AssetName="BTT_SetMovementSpeed",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed",ClassName="BTT_SetMovementSpeed_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"BT_Enemy_Melee:BTT_SetMovementSpeed_C_5"'
+         CopySubNodeIndex=22
+         NodePosX=-496
+         NodePosY=1248
+         NodeGuid=B21C758C409C564E55E103B2D13F0514
+         CustomProperties Pin (PinId=974710914AAADAD2A984BAB85C19AA9E,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_12 6F2C68974DD128FAD15E77B291C3835B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_26" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_26"'
+         ClassData=(AssetName="BTT_ClearFocus",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_ClearFocus",ClassName="BTT_ClearFocus_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_ClearFocus.BTT_ClearFocus_C'"BT_Enemy_Melee:BTT_ClearFocus_C_3"'
+         CopySubNodeIndex=23
+         NodePosX=-768
+         NodePosY=1280
+         NodeGuid=F853483E4890DAC4048FBAA078A5EA16
+         CustomProperties Pin (PinId=F82917054D1C2664652C6EBD76314826,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_12 6F2C68974DD128FAD15E77B291C3835B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_27" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_27"'
+         ClassData=(AssetName="BTT_MoveToIdealRange",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange",ClassName="BTT_MoveToIdealRange_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange.BTT_MoveToIdealRange_C'"BT_Enemy_Melee:BTT_MoveToIdealRange_C_1"'
+         CopySubNodeIndex=24
+         NodePosX=-1120
+         NodePosY=832
+         NodeGuid=A501C976498114A469A8C3A7F34F9386
+         CustomProperties Pin (PinId=6F961A044DAE30B6C1542FB5C11C1CB2,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 8CC6EDE445B53829830CC0A40655418F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_28" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_28"'
+         ClassData=(ClassName="BTTask_RunEQSQuery")
+         NodeInstance=/Script/AIModule.BTTask_RunEQSQuery'"BT_Enemy_Melee:BTTask_RunEQSQuery_0"'
+         CopySubNodeIndex=27
+         NodePosX=-880
+         NodePosY=2064
+         NodeGuid=0C4DB07A4C9FDE518C7564BB0AFA8A5F
+         CustomProperties Pin (PinId=D439648C414E007115E481BF4CECDE7C,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_10 2D0FEAA84023D79CC48442AECC35722C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_29" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_29"'
+         ClassData=(ClassName="BTTask_MoveTo")
+         NodeInstance=/Script/AIModule.BTTask_MoveTo'"BT_Enemy_Melee:BTTask_MoveTo_0"'
+         CopySubNodeIndex=28
+         NodePosX=-544
+         NodePosY=2064
+         NodeGuid=616C3F9749F79DF561476F800A81101A
+         CustomProperties Pin (PinId=D86C20204BD2E7FDD72DE69EC8BBF8BD,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_10 2D0FEAA84023D79CC48442AECC35722C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_3" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_3"'
+         ClassData=(AssetName="BTT_EquipWeapon",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_EquipWeapon",ClassName="BTT_EquipWeapon_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_EquipWeapon.BTT_EquipWeapon_C'"BT_Enemy_Melee:BTT_WieldWeapon_C_0"'
+         CopySubNodeIndex=5
+         NodePosX=-1136
+         NodePosY=192
+         NodeGuid=4A116660486918CAD7B2A59F17E99EA1
+         CustomProperties Pin (PinId=279635164F54E356A74E9C8337EC67D7,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_8 8CE74B19455AE3186A970D8F850EEF04,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_30" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_30"'
+         ClassData=(ClassName="BTTask_Wait")
+         NodeInstance=/Script/AIModule.BTTask_Wait'"BT_Enemy_Melee:BTTask_Wait_3"'
+         CopySubNodeIndex=29
+         NodePosX=-304
+         NodePosY=2064
+         NodeGuid=8CB430D0483024B0BDE52CA8C24F6532
+         CustomProperties Pin (PinId=09081CD4405CC63EA914EDB4152BAFC2,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_10 2D0FEAA84023D79CC48442AECC35722C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_31" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_31"'
+         ClassData=(AssetName="BTT_MoveToIdealRange",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange",ClassName="BTT_MoveToIdealRange_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange.BTT_MoveToIdealRange_C'"BT_Enemy_Melee:BTT_MoveToIdealRange_C_2"'
+         CopySubNodeIndex=30
+         NodePosX=-96
+         NodePosY=2064
+         NodeGuid=3984D46041814C5179D58C889747EC33
+         CustomProperties Pin (PinId=43F78E014F093A687FAA17915E1ABB14,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_10 2D0FEAA84023D79CC48442AECC35722C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_32" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_32"'
+         ClassData=(AssetName="BTT_DefaultAttack",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_DefaultAttack",ClassName="BTT_DefaultAttack_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_DefaultAttack.BTT_DefaultAttack_C'"BT_Enemy_Melee:BTT_DefaultAttack_C_1"'
+         CopySubNodeIndex=31
+         NodePosX=304
+         NodePosY=2080
+         NodeGuid=DA8FE48949CD08699BDC7DA4B77D205E
+         CustomProperties Pin (PinId=EF49A38143D64EA7EB74128F3DE6E312,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_10 2D0FEAA84023D79CC48442AECC35722C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_33" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_33"'
+         Decorators(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_8"'
+         ClassData=(AssetName="BTT_UnequipWeapon",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_UnequipWeapon",ClassName="BTT_UnequipWeapon_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_UnequipWeapon.BTT_UnequipWeapon_C'"BT_Enemy_Melee:BTT_UnequipWeapon_C_0"'
+         SubNodes(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Decorator'"BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Decorator_8"'
+         CopySubNodeIndex=32
+         NodePosX=496
+         NodePosY=-272
+         NodeGuid=9CBADA574FA88AFA482D509F5A917E6E
+         CustomProperties Pin (PinId=1DD71E344BD6CD478FF40283A1615D26,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_5 2BECA9734CCF0A9D6C58798BDB02387F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_7" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_7"'
+         ClassData=(AssetName="BTT_SetMovementSpeed",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed",ClassName="BTT_SetMovementSpeed_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"BT_Enemy_Melee:BTT_SetMovementSpeed_C_2"'
+         CopySubNodeIndex=7
+         NodePosX=-1696
+         NodePosY=800
+         NodeGuid=0D3F1E7342C61AD6BD9A5287D7C71033
+         CustomProperties Pin (PinId=08AC6BC2459174CDA8393A8462A30B7A,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 8CC6EDE445B53829830CC0A40655418F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="BehaviorTreeGraphNode_Task_9" ExportPath=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree.BehaviorTreeGraphNode_Task_9"'
+         ClassData=(AssetName="BTT_DefaultAttack",GeneratedClassPackage="/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_DefaultAttack",ClassName="BTT_DefaultAttack_C")
+         NodeInstance=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_DefaultAttack.BTT_DefaultAttack_C'"BT_Enemy_Melee:BTT_DefaultAttack_C_0"'
+         CopySubNodeIndex=1
+         NodePosX=-576
+         NodePosY=816
+         NodeGuid=AB86400C46F455423972BD87AA2C44EB
+         CustomProperties Pin (PinId=802B19D74438B32B9D12579DEA4698F7,PinName="In",PinType.PinCategory="SingleComposite",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(BehaviorTreeGraphNode_Composite_0 8CC6EDE445B53829830CC0A40655418F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      ModCounter=340
+      bIsUsingModCounter=True
+      GraphVersion=3
+      Nodes(0)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Root'"BehaviorTreeGraphNode_Root_0"'
+      Nodes(1)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_0"'
+      Nodes(2)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_9"'
+      Nodes(3)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_1"'
+      Nodes(4)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_2"'
+      Nodes(5)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_0"'
+      Nodes(6)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_3"'
+      Nodes(7)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_1"'
+      Nodes(8)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_7"'
+      Nodes(9)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_3"'
+      Nodes(10)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_4"'
+      Nodes(11)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_5"'
+      Nodes(12)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_8"'
+      Nodes(13)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_13"'
+      Nodes(14)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_17"'
+      Nodes(15)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_19"'
+      Nodes(16)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_20"'
+      Nodes(17)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_21"'
+      Nodes(18)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_22"'
+      Nodes(19)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_11"'
+      Nodes(20)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_13"'
+      Nodes(21)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_12"'
+      Nodes(22)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_24"'
+      Nodes(23)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_25"'
+      Nodes(24)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_26"'
+      Nodes(25)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_27"'
+      Nodes(26)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Composite'"BehaviorTreeGraphNode_Composite_10"'
+      Nodes(27)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_23"'
+      Nodes(28)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_28"'
+      Nodes(29)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_29"'
+      Nodes(30)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_30"'
+      Nodes(31)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_31"'
+      Nodes(32)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_32"'
+      Nodes(33)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_Task'"BehaviorTreeGraphNode_Task_33"'
+      Nodes(34)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_SubtreeTask'"BehaviorTreeGraphNode_SubtreeTask_2"'
+      Nodes(35)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_SubtreeTask'"BehaviorTreeGraphNode_SubtreeTask_1"'
+      Nodes(36)=/Script/BehaviorTreeEditor.BehaviorTreeGraphNode_SubtreeTask'"BehaviorTreeGraphNode_SubtreeTask_0"'
+      GraphGuid=1E51CCF94E2DC18CD8B26EA77EAD72EA
+   End Object
+   Begin Object Name="BTComposite_Selector_0" ExportPath=/Script/AIModule.BTComposite_Selector'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Selector_0"'
+      Children(0)=(ChildComposite=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_3"',Decorators=(/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWieldingSword.BTD_IsWieldingSword_C'"BT_Enemy_Melee:BTD_IsWieldingSword_C_7"'))
+      Children(1)=(ChildComposite=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_0"',Decorators=(/Script/AIModule.BTDecorator_Cooldown'"BT_Enemy_Melee:BTDecorator_Cooldown_0"'))
+      Children(2)=(ChildComposite=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_1"')
+      Services(0)=/Game/ThirdPerson/Blueprints/Enemies/AI/Services/BTS_StopAttackingIfTargetIsDead.BTS_StopAttackingIfTargetIsDead_C'"BT_Enemy_Melee:BTS_StopAttackingIfTargetIsDead_C_0"'
+      NodeName="CombatState"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_2"'
+   End Object
+   Begin Object Name="BTComposite_Selector_1" ExportPath=/Script/AIModule.BTComposite_Selector'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Selector_1"'
+      Children(0)=(ChildComposite=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_6"',Decorators=(/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWithinIdealRange.BTD_IsWithinIdealRange_C'"BT_Enemy_Melee:BTD_IsWithinIdealRange_C_4"'))
+      Children(1)=(ChildComposite=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_5"')
+      NodeName="Strafe"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_0"'
+   End Object
+   Begin Object Name="BTComposite_Selector_2" ExportPath=/Script/AIModule.BTComposite_Selector'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Selector_2"'
+      Children(0)=(ChildTask=/Script/AIModule.BTTask_RunBehavior'"BT_Enemy_Melee:BTTask_RunBehavior_2"',Decorators=(/Script/AIModule.BTDecorator_Blackboard'"BT_Enemy_Melee:BTDecorator_Blackboard_13"'))
+      Children(1)=(ChildComposite=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_0"',Decorators=(/Script/AIModule.BTDecorator_Blackboard'"BT_Enemy_Melee:BTDecorator_Blackboard_0"'))
+      Children(2)=(ChildTask=/Script/AIModule.BTTask_RunBehavior'"BT_Enemy_Melee:BTTask_RunBehavior_0"',Decorators=(/Script/AIModule.BTDecorator_Blackboard'"BT_Enemy_Melee:BTDecorator_Blackboard_1"'))
+      Children(3)=(ChildComposite=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_3"',Decorators=(/Script/AIModule.BTDecorator_Blackboard'"BT_Enemy_Melee:BTDecorator_Blackboard_12"'))
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+   End Object
+   Begin Object Name="BTComposite_Selector_3" ExportPath=/Script/AIModule.BTComposite_Selector'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Selector_3"'
+      Children(0)=(ChildComposite=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_5"')
+      NodeName="PassiveState"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_2"'
+   End Object
+   Begin Object Name="BTComposite_Selector_5" ExportPath=/Script/AIModule.BTComposite_Selector'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Selector_5"'
+      Children(0)=(ChildTask=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_UnequipWeapon.BTT_UnequipWeapon_C'"BT_Enemy_Melee:BTT_UnequipWeapon_C_0"',Decorators=(/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWieldingSword.BTD_IsWieldingSword_C'"BT_Enemy_Melee:BTD_IsWieldingSword_C_8"'))
+      Children(1)=(ChildTask=/Script/AIModule.BTTask_RunBehavior'"BT_Enemy_Melee:BTTask_RunBehavior_1"')
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_3"'
+   End Object
+   Begin Object Name="BTComposite_Sequence_0" ExportPath=/Script/AIModule.BTComposite_Sequence'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Sequence_0"'
+      Children(0)=(ChildTask=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"BT_Enemy_Melee:BTT_SetMovementSpeed_C_2"')
+      Children(1)=(ChildTask=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_ClearFocus.BTT_ClearFocus_C'"BT_Enemy_Melee:BTT_ClearFocus_C_0"')
+      Children(2)=(ChildTask=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange.BTT_MoveToIdealRange_C'"BT_Enemy_Melee:BTT_MoveToIdealRange_C_1"')
+      Children(3)=(ChildTask=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C'"BT_Enemy_Melee:BTT_FocusTarget_C_0"')
+      Children(4)=(ChildTask=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_DefaultAttack.BTT_DefaultAttack_C'"BT_Enemy_Melee:BTT_DefaultAttack_C_0"')
+      Children(5)=(ChildTask=/Script/AIModule.BTTask_Wait'"BT_Enemy_Melee:BTTask_Wait_0"')
+      NodeName="Attack"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_0"'
+   End Object
+   Begin Object Name="BTComposite_Sequence_3" ExportPath=/Script/AIModule.BTComposite_Sequence'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Sequence_3"'
+      Children(0)=(ChildTask=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C'"BT_Enemy_Melee:BTT_FocusTarget_C_1"')
+      Children(1)=(ChildTask=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_EquipWeapon.BTT_EquipWeapon_C'"BT_Enemy_Melee:BTT_WieldWeapon_C_0"')
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_0"'
+   End Object
+   Begin Object Name="BTComposite_Sequence_5" ExportPath=/Script/AIModule.BTComposite_Sequence'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Sequence_5"'
+      Children(0)=(ChildTask=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C'"BT_Enemy_Melee:BTT_FocusTarget_C_3"')
+      Children(1)=(ChildTask=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"BT_Enemy_Melee:BTT_SetMovementSpeed_C_4"')
+      Children(2)=(ChildTask=/Script/AIModule.BTTask_RunEQSQuery'"BT_Enemy_Melee:BTTask_RunEQSQuery_1"')
+      Children(3)=(ChildTask=/Script/AIModule.BTTask_MoveTo'"BT_Enemy_Melee:BTTask_MoveTo_3"')
+      Children(4)=(ChildTask=/Script/AIModule.BTTask_Wait'"BT_Enemy_Melee:BTTask_Wait_4"')
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_1"'
+   End Object
+   Begin Object Name="BTComposite_Sequence_6" ExportPath=/Script/AIModule.BTComposite_Sequence'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Sequence_6"'
+      Children(0)=(ChildTask=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_ClearFocus.BTT_ClearFocus_C'"BT_Enemy_Melee:BTT_ClearFocus_C_3"')
+      Children(1)=(ChildTask=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"BT_Enemy_Melee:BTT_SetMovementSpeed_C_5"')
+      Children(2)=(ChildTask=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange.BTT_MoveToIdealRange_C'"BT_Enemy_Melee:BTT_MoveToIdealRange_C_0"')
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_1"'
+   End Object
+   Begin Object Name="BTComposite_Sequence_7" ExportPath=/Script/AIModule.BTComposite_Sequence'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTComposite_Sequence_7"'
+      NodeName="FindCover"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+   End Object
+   Begin Object Name="BTD_IsWieldingSword_C_7" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWieldingSword.BTD_IsWieldingSword_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTD_IsWieldingSword_C_7"'
+      bInverseCondition=True
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_0"'
+   End Object
+   Begin Object Name="BTD_IsWieldingSword_C_8" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWieldingSword.BTD_IsWieldingSword_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTD_IsWieldingSword_C_8"'
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_5"'
+   End Object
+   Begin Object Name="BTD_IsWithinIdealRange_C_4" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Decorator/BTD_IsWithinIdealRange.BTD_IsWithinIdealRange_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTD_IsWithinIdealRange_C_4"'
+      IdealRange=(SelectedKeyName="DefendRadius")
+      AttackTarget=(SelectedKeyName="AttackTarget")
+      ObservedKeyNames(0)="DefendRadius"
+      ObservedKeyNames(1)="AttackTarget"
+      bInverseCondition=True
+      FlowAbortMode=LowerPriority
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_1"'
+   End Object
+   Begin Object Name="BTDecorator_Blackboard_0" ExportPath=/Script/AIModule.BTDecorator_Blackboard'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTDecorator_Blackboard_0"'
+      IntValue=1
+      StringValue="NewEnumerator1"
+      CachedDescription="State Is Equal To Attacking"
+      BlackboardKey=(SelectedKeyName="State")
+      FlowAbortMode=Self
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_2"'
+   End Object
+   Begin Object Name="BTDecorator_Blackboard_1" ExportPath=/Script/AIModule.BTDecorator_Blackboard'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTDecorator_Blackboard_1"'
+      IntValue=3
+      StringValue="NewEnumerator3"
+      CachedDescription="State Is Equal To Investigating"
+      BlackboardKey=(SelectedKeyName="State")
+      FlowAbortMode=Self
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_2"'
+   End Object
+   Begin Object Name="BTDecorator_Blackboard_12" ExportPath=/Script/AIModule.BTDecorator_Blackboard'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTDecorator_Blackboard_12"'
+      StringValue="NewEnumerator0"
+      CachedDescription="State Is Equal To Passive"
+      BlackboardKey=(SelectedKeyName="State")
+      FlowAbortMode=Self
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_2"'
+   End Object
+   Begin Object Name="BTDecorator_Blackboard_13" ExportPath=/Script/AIModule.BTDecorator_Blackboard'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTDecorator_Blackboard_13"'
+      IntValue=2
+      StringValue="NewEnumerator2"
+      CachedDescription="State Is Equal To Frozen"
+      BlackboardKey=(SelectedKeyName="State")
+      FlowAbortMode=Both
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_2"'
+   End Object
+   Begin Object Name="BTDecorator_Cooldown_0" ExportPath=/Script/AIModule.BTDecorator_Cooldown'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTDecorator_Cooldown_0"'
+      CoolDownTime=3.000000
+      FlowAbortMode=LowerPriority
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_0"'
+   End Object
+   Begin Object Name="BTS_StopAttackingIfTargetIsDead_C_0" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Services/BTS_StopAttackingIfTargetIsDead.BTS_StopAttackingIfTargetIsDead_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTS_StopAttackingIfTargetIsDead_C_0"'
+      AttackTargetKey=(SelectedKeyName="AttackTarget")
+      Interval=1.000000
+      RandomDeviation=0.000000
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_0"'
+   End Object
+   Begin Object Name="BTT_ClearFocus_C_0" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_ClearFocus.BTT_ClearFocus_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_ClearFocus_C_0"'
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_0"'
+   End Object
+   Begin Object Name="BTT_ClearFocus_C_3" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_ClearFocus.BTT_ClearFocus_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_ClearFocus_C_3"'
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_6"'
+   End Object
+   Begin Object Name="BTT_DefaultAttack_C_0" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_DefaultAttack.BTT_DefaultAttack_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_DefaultAttack_C_0"'
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_0"'
+   End Object
+   Begin Object Name="BTT_DefaultAttack_C_1" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_DefaultAttack.BTT_DefaultAttack_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_DefaultAttack_C_1"'
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+   End Object
+   Begin Object Name="BTT_WieldWeapon_C_0" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_EquipWeapon.BTT_EquipWeapon_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_WieldWeapon_C_0"'
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_3"'
+   End Object
+   Begin Object Name="BTT_FocusTarget_C_0" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_FocusTarget_C_0"'
+      AttackTargetKey=(SelectedKeyName="AttackTarget")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_0"'
+   End Object
+   Begin Object Name="BTT_FocusTarget_C_1" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_FocusTarget_C_1"'
+      AttackTargetKey=(SelectedKeyName="AttackTarget")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_3"'
+   End Object
+   Begin Object Name="BTT_FocusTarget_C_3" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_FocusTarget.BTT_FocusTarget_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_FocusTarget_C_3"'
+      AttackTargetKey=(SelectedKeyName="AttackTarget")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_5"'
+   End Object
+   Begin Object Name="BTT_MoveToIdealRange_C_0" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange.BTT_MoveToIdealRange_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_MoveToIdealRange_C_0"'
+      IdealRange=(SelectedKeyName="DefendRadius")
+      AttackTarget=(SelectedKeyName="AttackTarget")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_6"'
+   End Object
+   Begin Object Name="BTT_MoveToIdealRange_C_1" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange.BTT_MoveToIdealRange_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_MoveToIdealRange_C_1"'
+      IdealRange=(SelectedKeyName="AttackRadius")
+      AttackTarget=(SelectedKeyName="AttackTarget")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_0"'
+   End Object
+   Begin Object Name="BTT_MoveToIdealRange_C_2" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_MoveToIdealRange.BTT_MoveToIdealRange_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_MoveToIdealRange_C_2"'
+      IdealRange=(SelectedKeyName="AttackRadius")
+      AttackTarget=(SelectedKeyName="AttackTarget")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+   End Object
+   Begin Object Name="BTT_SetMovementSpeed_C_2" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_SetMovementSpeed_C_2"'
+      MovementSpeed=NewEnumerator3
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_0"'
+   End Object
+   Begin Object Name="BTT_SetMovementSpeed_C_3" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_SetMovementSpeed_C_3"'
+      MovementSpeed=NewEnumerator3
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+   End Object
+   Begin Object Name="BTT_SetMovementSpeed_C_4" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_SetMovementSpeed_C_4"'
+      MovementSpeed=NewEnumerator1
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_5"'
+   End Object
+   Begin Object Name="BTT_SetMovementSpeed_C_5" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_SetMovementSpeed.BTT_SetMovementSpeed_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_SetMovementSpeed_C_5"'
+      MovementSpeed=NewEnumerator3
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_6"'
+   End Object
+   Begin Object Name="BTT_UnequipWeapon_C_0" ExportPath=/Game/ThirdPerson/Blueprints/Enemies/AI/Tasks/BTT_UnequipWeapon.BTT_UnequipWeapon_C'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTT_UnequipWeapon_C_0"'
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_5"'
+   End Object
+   Begin Object Name="BTTask_MoveTo_0" ExportPath=/Script/AIModule.BTTask_MoveTo'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_MoveTo_0"'
+      Begin Object Name="BlackboardKey_Object_0" ExportPath=/Script/AIModule.BlackboardKeyType_Object'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_MoveTo_0.BlackboardKey_Object_0"'
+      End Object
+      Begin Object Name="BlackboardKey_Vector" ExportPath=/Script/AIModule.BlackboardKeyType_Vector'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_MoveTo_0.BlackboardKey_Vector"'
+      End Object
+      AcceptableRadius=10.000000
+      bStopOnOverlapNeedsUpdate=False
+      BlackboardKey=(SelectedKeyName="PointOfInterest")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+   End Object
+   Begin Object Name="BTTask_MoveTo_3" ExportPath=/Script/AIModule.BTTask_MoveTo'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_MoveTo_3"'
+      Begin Object Name="BlackboardKey_Object_0" ExportPath=/Script/AIModule.BlackboardKeyType_Object'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_MoveTo_3.BlackboardKey_Object_0"'
+      End Object
+      Begin Object Name="BlackboardKey_Vector" ExportPath=/Script/AIModule.BlackboardKeyType_Vector'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_MoveTo_3.BlackboardKey_Vector"'
+      End Object
+      AcceptableRadius=10.000000
+      bStopOnOverlapNeedsUpdate=False
+      BlackboardKey=(SelectedKeyName="PointOfInterest")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_5"'
+   End Object
+   Begin Object Name="BTTask_RunBehavior_0" ExportPath=/Script/AIModule.BTTask_RunBehavior'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_RunBehavior_0"'
+      BehaviorAsset=/Script/AIModule.BehaviorTree'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/SubTrees/BT_SubTree_Investigating.BT_SubTree_Investigating"'
+      NodeName="Investigating State"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_2"'
+   End Object
+   Begin Object Name="BTTask_RunBehavior_1" ExportPath=/Script/AIModule.BTTask_RunBehavior'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_RunBehavior_1"'
+      BehaviorAsset=/Script/AIModule.BehaviorTree'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/SubTrees/BT_SubTree_Passive.BT_SubTree_Passive"'
+      NodeName="Patrol or Passive State"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_5"'
+   End Object
+   Begin Object Name="BTTask_RunBehavior_2" ExportPath=/Script/AIModule.BTTask_RunBehavior'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_RunBehavior_2"'
+      BehaviorAsset=/Script/AIModule.BehaviorTree'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/SubTrees/BT_SubTree_Frozen.BT_SubTree_Frozen"'
+      NodeName="Investigating State"
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Selector'"BT_Enemy_Melee:BTComposite_Selector_2"'
+   End Object
+   Begin Object Name="BTTask_RunEQSQuery_0" ExportPath=/Script/AIModule.BTTask_RunEQSQuery'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_RunEQSQuery_0"'
+      Begin Object Name="EQSQueryBlackboardKey_Object_0" ExportPath=/Script/AIModule.BlackboardKeyType_Object'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_RunEQSQuery_0.EQSQueryBlackboardKey_Object_0"'
+      End Object
+      EQSRequest=(QueryTemplate=/Script/AIModule.EnvQuery'"/Game/ThirdPerson/Blueprints/Enemies/EQS/EQS_FindCover.EQS_FindCover"')
+      BlackboardKey=(SelectedKeyName="PointOfInterest")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+   End Object
+   Begin Object Name="BTTask_RunEQSQuery_1" ExportPath=/Script/AIModule.BTTask_RunEQSQuery'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_RunEQSQuery_1"'
+      Begin Object Name="EQSQueryBlackboardKey_Object_0" ExportPath=/Script/AIModule.BlackboardKeyType_Object'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_RunEQSQuery_1.EQSQueryBlackboardKey_Object_0"'
+      End Object
+      EQSRequest=(QueryTemplate=/Script/AIModule.EnvQuery'"/Game/ThirdPerson/Blueprints/Enemies/EQS/EQS_Strafe.EQS_Strafe"',RunMode=RandomBest25Pct)
+      BlackboardKey=(SelectedKeyName="PointOfInterest")
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_5"'
+   End Object
+   Begin Object Name="BTTask_Wait_0" ExportPath=/Script/AIModule.BTTask_Wait'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_Wait_0"'
+      WaitTime=1.000000
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_0"'
+   End Object
+   Begin Object Name="BTTask_Wait_3" ExportPath=/Script/AIModule.BTTask_Wait'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_Wait_3"'
+      WaitTime=2.000000
+      RandomDeviation=1.000000
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+   End Object
+   Begin Object Name="BTTask_Wait_4" ExportPath=/Script/AIModule.BTTask_Wait'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:BTTask_Wait_4"'
+      WaitTime=0.300000
+      RandomDeviation=0.200000
+      TreeAsset=/Script/AIModule.BehaviorTree'"BT_Enemy_Melee"'
+      ParentNode=/Script/AIModule.BTComposite_Sequence'"BT_Enemy_Melee:BTComposite_Sequence_5"'
+   End Object
+   RootNode=/Script/AIModule.BTComposite_Selector'"BTComposite_Selector_2"'
+   BTGraph=/Script/BehaviorTreeEditor.BehaviorTreeGraph'"Behavior Tree"'
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BT_Enemy_Melee.BT_Enemy_Melee:Behavior Tree",SavedViewOffset=(X=-1484.251771,Y=-184.067298),SavedZoomAmount=0.375000)
+   BlackboardAsset=/Script/AIModule.BlackboardData'"/Game/ThirdPerson/Blueprints/Enemies/AI/BehaviorTrees/BB_Enemy_Base.BB_Enemy_Base"'
+End Object
